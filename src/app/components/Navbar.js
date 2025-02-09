@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Navbar = () => {
+const navbar = () => {
   return (
     <nav className="bg-white shadow-lg">
       <div className="max-w-6xl mx-auto px-4">
@@ -25,4 +25,4 @@ const Navbar = () => {
 };
 
 export default
- Navbar;
+ navbar;
